@@ -7,7 +7,25 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <CoreLocation/CoreLocation.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <CLLocationManagerDelegate>
+
+- (IBAction)getDataButton:(id)sender;
+
+@property (strong, nonatomic) IBOutlet UILabel *showDataLabel;
+
+@property (strong, nonatomic) IBOutlet UIImageView *imageView;
+
+@property (strong, nonatomic) IBOutlet UILabel *distanceLabel;
+@property (strong, nonatomic) IBOutlet UILabel *yourPositionLabel;
+@property (strong, nonatomic) IBOutlet UILabel *pinLabel;
+
+@property (nonatomic, strong) CLGeocoder *myGeocoder;
+@property (nonatomic,strong) CLLocationManager *myLocationManager;
+
+
+@property CLLocation *firstLocation;
+@property CLLocation *secondLocation;
 
 @end

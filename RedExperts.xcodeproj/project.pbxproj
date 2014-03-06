@@ -460,6 +460,7 @@
 				756E7D0A18C66E7800F2126E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		756E7D0B18C66E7800F2126E /* Build configuration list for PBXNativeTarget "RedExpertsTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +469,7 @@
 				756E7D0D18C66E7800F2126E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
